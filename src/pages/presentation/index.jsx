@@ -103,7 +103,7 @@ export default function BasicCard() {
     },
   ];
   return (
-    <Box sx={{ minWidth: 275 }}>
+    <Box sx={{ minWidth: 275, paddingBottom: "20px" }}>
       {items.map((item) => (
         <Card
           sx={{
@@ -120,9 +120,7 @@ export default function BasicCard() {
             >
               {item.id}-ma'ruza
             </Typography>
-            <Typography variant="h5" component="div">
-              {item.themeName}
-            </Typography>
+            <h1 className="md:text-3xl text-xl">{item.themeName}</h1>
           </CardContent>
           <CardActions>
             <Button variant="outlined" size="small">

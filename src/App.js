@@ -26,7 +26,7 @@ function App() {
   // };
 
   return (
-    <div className="h-[100%] bg-[#F6F1F1]">
+    <div className="bg-scroll bg-gradient-to-t from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
       <Appbar />
     </div>
   );

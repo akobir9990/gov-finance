@@ -163,7 +163,7 @@ function Quiz() {
           <Box className="sm:flex-row sm:my-3 flex flex-col justify-between">
             <Button
               disabled={currentQuestion === quizLimite - 1}
-              variant="outlined"
+              variant="contained"
               onClick={nextQeustion}
               className="py-4"
               sx={{

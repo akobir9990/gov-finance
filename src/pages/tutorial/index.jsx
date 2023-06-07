@@ -108,7 +108,7 @@ export default function BasicCard() {
     },
   ];
   return (
-    <Box sx={{ minWidth: 275 }}>
+    <Box sx={{ minWidth: 275, paddingBottom: " 20px" }}>
       {items.map((item) => (
         <Card
           sx={{
@@ -125,12 +125,10 @@ export default function BasicCard() {
             >
               ГЛАВА-{item.id}
             </Typography>
-            <Typography variant="h5" component="div">
-              {item.themeName}
-            </Typography>
+            <h1 className="md:text-3xl text-xl">{item.themeName}</h1>
           </CardContent>
           <CardActions>
-            <Button variant="outlined" size="small">
+            <Button variant="outlined">
               <NavLink to={item.url} key={items.id}>
                 открыть
               </NavLink>
