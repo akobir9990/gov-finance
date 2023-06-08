@@ -27,6 +27,8 @@ import Ten from "../pages/presentation/pages/ten";
 import Eleven from "../pages/presentation/pages/eleven";
 import Tvelwe from "../pages/presentation/pages/twelve";
 import Thirteen from "../pages/presentation/pages/thirteen";
+import Fourteen from "../pages/presentation/pages/fourteen";
+import Fifteen from "../pages/presentation/pages/fifteen";
 
 import Tutorial from "../pages/tutorial";
 import TutorialOne from "../pages/tutorial/pages/one";
@@ -42,8 +44,8 @@ import TutorialTen from "../pages/tutorial/pages/ten";
 import TutorialEleven from "../pages/tutorial/pages/eleven";
 import TutorialTwelve from "../pages/tutorial/pages/twelve";
 import TutorialThirteen from "../pages/tutorial/pages/thirteen";
-import Fourteen from "../pages/tutorial/pages/fourteen";
-import Fifteen from "../pages/tutorial/pages/fifteen";
+import TutorialFourteen from "../pages/tutorial/pages/fourteen";
+import TutorialFifteen from "../pages/tutorial/pages/fifteen";
 
 export const practice = [
   { id: 14, path: "", element: Practice },
@@ -62,7 +64,7 @@ export const practice = [
   { id: 13, path: "13", element: PracticeThirteen },
 ];
 export const presentation = [
-  { id: 14, path: "", element: Presentation },
+  { id: 16, path: "", element: Presentation },
   { id: 1, path: "1", element: One },
   { id: 2, path: "2", element: Two },
   { id: 3, path: "3", element: Three },
@@ -76,10 +78,12 @@ export const presentation = [
   { id: 11, path: "11", element: Eleven },
   { id: 12, path: "12", element: Tvelwe },
   { id: 13, path: "13", element: Thirteen },
+  { id: 14, path: "14", element: Fourteen },
+  { id: 15, path: "15", element: Fifteen },
 ];
 
 export const tutorial = [
-  { id: 17, path: "", element: Tutorial },
+  { id: 16, path: "", element: Tutorial },
   { id: 1, path: "1", element: TutorialOne },
   { id: 2, path: "2", element: TutorialTwo },
   { id: 3, path: "3", element: TutorialThree },
@@ -93,6 +97,6 @@ export const tutorial = [
   { id: 11, path: "11", element: TutorialEleven },
   { id: 12, path: "12", element: TutorialTwelve },
   { id: 13, path: "13", element: TutorialThirteen },
-  { id: 14, path: "14", element: Fourteen },
-  { id: 15, path: "15", element: Fifteen },
+  { id: 14, path: "14", element: TutorialFourteen },
+  { id: 15, path: "15", element: TutorialFifteen },
 ];

@@ -90,7 +90,7 @@ export default function BasicCard() {
   //   },
   // ];
   return (
-    <div className="h-[100vh]">will be a presentation when growed up</div>
+    <div className="h-[100vh]">практики</div>
     // <Box sx={{ minWidth: 275 }}>
     //   {items.map((item) => (
     //     <Card

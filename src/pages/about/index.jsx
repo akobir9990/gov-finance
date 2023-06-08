@@ -5,12 +5,12 @@ import logo from "../../assets/logo512.png";
 function index() {
   return (
     <div className="h-[100vh]">
-      <Card className=" w-[100%] flex justify-ceenter flex-wrap px-[50px] py-[70px]">
-        <div className="flex justify-center items-center flex-col font-bold p-3 w-[150px] h-[150px] ">
+      <Card className="flex md:flex-row flex-col rounded-md">
+        <div className=" p-10 flex justify-center items-center flex-col">
           <img className="" src={logo} alt="Государственные финансы" />
-          <h3> ГОСУДАРСТВЕННЫЕ ФИНАНСЫ</h3>
+          <h3 className=" font-bold text-xl">ГОСУДАРСТВЕННЫЕ ФИНАНСЫ</h3>
         </div>
-        <p className="p-3 min-w-[200px] w-[700px]">
+        <p className=" p-10 flex justify-center items-center">
           Эта программа информационных технологий и математических процессов
           пройти курс моделирования учебное пособие, подготовленное и содержащее
           этот предмет методическое пособие, видеоурок, лабораторные занятия
