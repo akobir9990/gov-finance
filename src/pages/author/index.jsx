@@ -2,7 +2,7 @@ import * as React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import esanbayevna from "../../assets/images/esanbayevna.jpg";
-import tashmatova from "../../assets/images/tashmatova.png";
+import tashmatova from "../../assets/images/tashmatova.jpg";
 
 export default function MediaCard() {
   return (
