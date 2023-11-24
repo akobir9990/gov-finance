@@ -1,17 +1,18 @@
 import Practice from "../pages/practice";
-import PracticeOne from "../pages/practice/pages/one";
-import PracticeTwo from "../pages/practice/pages/two";
-import PracticeThree from "../pages/practice/pages/three";
-import PracticeFour from "../pages/practice/pages/four";
-import PracticeFive from "../pages/practice/pages/five";
-import PracticeSix from "../pages/practice/pages/six";
-import PracticeSeven from "../pages/practice/pages/seven";
-import PracticeEight from "../pages/practice/pages/eight";
-import PracticeNine from "../pages/practice/pages/nine";
-import PracticeTen from "../pages/practice/pages/ten";
-import PracticeEleven from "../pages/practice/pages/eleven";
-import PracticeTwelve from "../pages/practice/pages/twelve";
-import PracticeThirteen from "../pages/practice/pages/thirteen";
+import PracticeOne from "../pages/practice/pages/1";
+import PracticeTwo from "../pages/practice/pages/2";
+import PracticeThree from "../pages/practice/pages/3";
+import PracticeFour from "../pages/practice/pages/4";
+import PracticeFive from "../pages/practice/pages/5";
+import PracticeSix from "../pages/practice/pages/6";
+import PracticeSeven from "../pages/practice/pages/7";
+import PracticeEight from "../pages/practice/pages/8";
+import PracticeNine from "../pages/practice/pages/9";
+import PracticeTen from "../pages/practice/pages/10";
+import PracticeEleven from "../pages/practice/pages/11";
+import PracticeTwelve from "../pages/practice/pages/12";
+import PracticeThirteen from "../pages/practice/pages/13";
+import PracticeFourteen from "../pages/practice/pages/14";
 
 import Presentation from "../pages/presentation";
 import One from "../pages/presentation/pages/one";
@@ -62,6 +63,7 @@ export const practice = [
   { id: 11, path: "11", element: PracticeEleven },
   { id: 12, path: "12", element: PracticeTwelve },
   { id: 13, path: "13", element: PracticeThirteen },
+  { id: 14, path: "14", element: PracticeFourteen },
 ];
 export const presentation = [
   { id: 16, path: "", element: Presentation },

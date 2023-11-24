@@ -35,7 +35,7 @@ export default function MediaCard() {
         <CardContent className="sm:text-4xl">
           <h1 className="text-[30px] font-bold">ТАШМАТОВА РАНО ГАИБОВНА </h1>
           <h2 className="text-[20px]">
-            к.э.н., доцент кафедры "Финансы" Ташкентского финансового института
+            Доцент кафедры "Финансы" Ташкентского финансового института
           </h2>
         </CardContent>
       </Card>

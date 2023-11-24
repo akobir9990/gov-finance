@@ -11,7 +11,8 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+// import AdbIcon from "@mui/icons-material/Adb";
+import logo from "../../assets/logo.png";
 import esanbayevna from "../../assets/images/esanbayevna.jpg";
 import Router from "../../router/router";
 import { NavLink } from "react-router-dom";
@@ -55,7 +56,7 @@ function ResponsiveAppBar() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
-  const nameOfScinece = "Гос.Финансы";
+  const nameOfScinece = "ТФИ";
 
   return (
     <div>
@@ -66,7 +67,14 @@ function ResponsiveAppBar() {
               className="flex items-center justify-center"
               to={HOME_PAGE}
             >
-              <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+              <Box sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}>
+                <img
+                  className="w-[40px] mr-4 rounded-[50%]"
+                  src={logo}
+                  alt=""
+                />
+              </Box>
+              {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
               <Typography
                 variant="h6"
                 noWrap
@@ -129,7 +137,10 @@ function ResponsiveAppBar() {
                 ))}
               </Menu>
             </Box>
-            <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+            <Box sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}>
+              <img className="w-[40px] rounded-[50%]" src={logo} alt="" />
+            </Box>
+            {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
             <Typography
               variant="h5"
               noWrap
