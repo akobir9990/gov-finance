@@ -10,7 +10,7 @@ import { TelegramIcon, TelegramShareButton } from "react-share";
 
 function One() {
   const [goBack, setGoBack] = useState(false);
-  const path = "https://t.me/atjmmmm/2";
+  const path = "https://t.me/tashkentInstituteOfFinance/93";
 
   const items = [
     { id: 1, name: one },

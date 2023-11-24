@@ -30,7 +30,7 @@ import {
 const pages = [
   { id: 1, name: "Текст лекций", path: TUTORIAL_PAGE },
   { id: 2, name: "Презентации", path: PRESENTATION_PAGE },
-  { id: 3, name: "Практики", path: PRACTICE_PAGE },
+  { id: 3, name: "Практические задания", path: PRACTICE_PAGE },
   { id: 4, name: "Тесты", path: TEST_PAGE },
 ];
 const settings = [
@@ -214,7 +214,7 @@ function ResponsiveAppBar() {
           </Toolbar>
         </Container>
       </AppBar>
-      <Container className="pt-20">
+      <Container className="p-20">
         <Router />
       </Container>
     </div>
